@@ -1,0 +1,78 @@
+@charset "utf-8";
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+	display:flexbox;
+	text-align: center;
+	background-color: rgb(240, 234, 251);
+	margin-top: 4%;
+}
+
+h1{
+	color:  rgb(112, 56, 214);
+}
+.agenda{
+	width: 8%;
+}
+.alinha{
+	display: inline-block;
+	text-align: center;
+}
+
+.botao1{
+	text-decoration: none;
+	background-color: rgb(112, 56, 214);
+	padding: 5px 10px 5px 10px;
+	color: white;
+	font-size: 1.2em;
+	font-weight: 700;
+	border-radius: 5px;
+	margin-top: 5%;
+	cursor: pointer;
+}
+#tabela{
+	margin-top: 30px;
+	display: inline-block;
+	text-align: center;
+}
+
+#tabela th{
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	padding: 10px;
+	text-align: center;
+	background-color:rgb(112, 56, 214);
+	color:#fff;
+}
+
+#tabela td{
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	padding: 10px;
+	
+}
+.caixaId{
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 2px solid rgb(112, 56, 214);
+	width: 25%;
+	background-color: rgb(240, 234, 251);
+	text-align: center;
+}
+.caixaInput{
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid rgb(112, 56, 214);
+}
+.botaoDelete{
+		text-decoration: none;
+	background-color: rgb(164, 2, 31);
+	padding: 5px 10px 5px 10px;
+	color: white;
+	font-size: 1.2em;
+	font-weight: 700;
+	border-radius: 5px;
+	margin-top: 5%;
+	cursor: pointer;
+}
